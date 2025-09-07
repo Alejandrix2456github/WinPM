@@ -1,0 +1,23 @@
+{
+  "repositories": {
+    "main": {
+      "url": "https://raw.githubusercontent.com/your-username/winpm-main/main/",
+      "priority": 1
+    },
+    "extras": {
+      "url": "https://raw.githubusercontent.com/your-username/winpm-extras/main/",
+      "priority": 2
+    },
+    "versions": {
+      "url": "https://raw.githubusercontent.com/your-username/winpm-versions/main/",
+      "priority": 3
+    }
+  },
+  "settings": {
+    "auto_update_repos": true,
+    "show_verbose_output": false,
+    "default_repository": "main",
+    "download_timeout": 30,
+    "max_parallel_downloads": 3
+  }
+}
